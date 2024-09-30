@@ -13,7 +13,6 @@ if __name__ == '__main__':
                 data=r'/data/wangzerui/Code_yolo/ultralytics-8.2.52/ultralytics/cfg/datasets/DIOR.yaml',
                 # data=r"/data/wangzerui/Code_yolo/ultralytics-8.2.52/ultralytics/cfg/datasets/DOTA1.0_hbb.yaml",
                 # data=r"/data/wangzerui/Code_yolo/ultralytics-8.2.52/ultralytics/cfg/datasets/NWPU VHR-10.yaml",
-                # 如果大家任务是其它的'ultralytics/cfg/default.yaml'找到这里修改task可以改成detect, segment, classify, pose
                 cache=False,
                 patience = 250,
                 imgsz=640,
